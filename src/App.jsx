@@ -1,17 +1,18 @@
-import Footer from "./Footer";
+// importacion por defecto
+// import Navbar from "./components/Navbar.jsx"
+
+// importacion nombrada
+// import {Navbar, array} from "./components/Navbar.jsx"
+
+import Footer from "./components/Footer.jsx";
+import Home from "./components/Home.jsx";
+import { Navbar } from "./components/Navbar.jsx";
 
 function App() {
-  let nombre = "pepe";
-
-  const sumar = () => {
-    console.log(2 + 2);
-  };
-
   return (
     <div>
-      <h1>Hola {nombre}</h1>
-      <h2>Como estas?</h2>
-      <button onClick={sumar}>sumar</button>
+      <Navbar />
+      <Home />
       <Footer />
     </div>
   );
