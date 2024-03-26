@@ -1,19 +1,18 @@
-import Footer from "./Footer";
+import NavBar from "./components/layout/navBar/NavBar";
+import ItemListContainer from "./components/pages/itemListContainer/ItemListContainer";
+import Footer from "./components/layout/footer/Footer";
+import { ThemeProvider } from "@mui/material";
+import { themeClaro } from "./themeConfig";
 
 function App() {
-  let nombre = "pepe";
-
-  const sumar = () => {
-    console.log(2 + 2);
-  };
-
   return (
-    <div>
-      <h1>Hola {nombre}</h1>
-      <h2>Como estas?</h2>
-      <button onClick={sumar}>sumar</button>
-      <Footer />
-    </div>
+    <ThemeProvider theme={themeClaro}>
+      <div>
+        <NavBar />
+        <ItemListContainer />
+        <Footer />
+      </div>
+    </ThemeProvider>
   );
 }
 
