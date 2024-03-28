@@ -9,7 +9,7 @@ function App() {
     <ThemeProvider theme={themeClaro}>
       <div>
         <NavBar />
-        <ItemListContainer />
+        <ItemListContainer greeting={"Bienvenido a la tienda"} />
         <Footer />
       </div>
     </ThemeProvider>

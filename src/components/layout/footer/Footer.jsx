@@ -1,5 +1,12 @@
+import { Box, Typography } from "@mui/material";
+import "./Footer.css";
+
 const Footer = () => {
-  return <div>Footer</div>;
+  return (
+    <Box position="static">
+      <Typography>Footer</Typography>
+    </Box>
+  );
 };
 
 export default Footer;
