@@ -5,7 +5,7 @@ export const products = [
     price: 40000,
     stock: 12,
     description: "Cappadocia",
-    category: "Fotografia",
+    category: "fotografia",
     img: "https://res.cloudinary.com/dkcs0lbjf/image/upload/v1712234370/samples/balloons.jpg",
   },
   {
@@ -14,7 +14,7 @@ export const products = [
     price: 123,
     stock: 12,
     description: "Sabana Africana",
-    category: "Animales",
+    category: "animales",
     img: "https://res.cloudinary.com/dkcs0lbjf/video/upload/v1712234361/samples/elephants.mp4",
   },
   {
@@ -23,7 +23,7 @@ export const products = [
     price: 123,
     stock: 12,
     description: "Gato",
-    category: "Animales",
+    category: "animales",
     img: "https://res.cloudinary.com/dkcs0lbjf/image/upload/v1712234357/samples/animals/kitten-playing.gif",
   },
   {
@@ -32,7 +32,7 @@ export const products = [
     price: 123,
     stock: 12,
     description: "Bosque",
-    category: "Paisaje",
+    category: "paisaje",
     img: "https://res.cloudinary.com/dkcs0lbjf/image/upload/v1712234356/samples/landscapes/nature-mountains.jpg",
   },
   {
@@ -41,7 +41,7 @@ export const products = [
     price: 123,
     stock: 12,
     description: "Montaña",
-    category: "Paisaje",
+    category: "paisaje",
     img: "https://res.cloudinary.com/dkcs0lbjf/image/upload/v1712234358/samples/landscapes/landscape-panorama.jpg",
   },
   {
@@ -50,7 +50,7 @@ export const products = [
     price: 123,
     stock: 12,
     description: "Pigmentos",
-    category: "Fotografia",
+    category: "otografia",
     img: "https://res.cloudinary.com/dkcs0lbjf/image/upload/v1712234355/samples/food/spices.jpg",
   },
   {
@@ -59,7 +59,7 @@ export const products = [
     price: 123,
     stock: 12,
     description: "Perros",
-    category: "Animales",
+    category: "animales",
     img: "https://res.cloudinary.com/dkcs0lbjf/image/upload/v1712234351/samples/animals/three-dogs.jpg",
   },
   {
@@ -68,7 +68,7 @@ export const products = [
     price: 123,
     stock: 12,
     description: "New York",
-    category: "Fotografia",
+    category: "fotografia",
     img: "https://res.cloudinary.com/dkcs0lbjf/image/upload/v1712234352/samples/landscapes/architecture-signs.jpg",
   },
   {
@@ -77,7 +77,7 @@ export const products = [
     price: 123,
     stock: 12,
     description: "Reno",
-    category: "Animales",
+    category: "animales",
     img: "https://res.cloudinary.com/dkcs0lbjf/image/upload/v1712234346/samples/animals/reindeer.jpg",
   },
   {
@@ -86,7 +86,7 @@ export const products = [
     price: 123,
     stock: 12,
     description: "Mar",
-    category: "Paisaje",
+    category: "paisaje",
     img: "https://res.cloudinary.com/dkcs0lbjf/image/upload/v1712234353/samples/landscapes/beach-boat.jpg",
   },
 ];
