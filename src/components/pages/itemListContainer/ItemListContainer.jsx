@@ -7,7 +7,7 @@ import { useParams, useNavigate } from "react-router-dom";
 const ItemListContainer = () => {
   const navigate = useNavigate(); // funcion ---> navigate("/cart")
   const { name } = useParams();
-  console.log(name);
+
   // name ---> un string ---> truthy
   // name ---> undefined ---> falsy
 
